@@ -1,0 +1,8 @@
+spec:
+  serve:
+    port: 5000
+  images:
+    path: ~/images
+    filetypes:
+      - "*.png"
+      - "*.jpg"
