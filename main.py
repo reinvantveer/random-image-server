@@ -26,7 +26,7 @@ def main(config: Config):
     def hello() -> str:
         random_img = random.randint(0, len(file_list))
         img_ = str(file_list[random_img])
-        return render_template("index.html", user_image=full_filename)
+        return render_template("index.html", user_image=img_)
 
     app.run()
 
